@@ -1,0 +1,53 @@
+#include <iostream>
+using namespace std;
+void main ()
+{
+	int kode_hari;
+	cout <<"Menentukan hari  "<<endl;
+	cout <<"1=Senin"<<endl;
+	cout <<"2=Selasa"<<endl;
+	cout <<"3=Rabu"<<endl;
+	cout <<"4=Kamis"<<endl;
+	cout <<"5=Jum'at"<<endl;
+	cout <<"6=Sabtu"<<endl;
+	cout <<"7=Minggu"<<endl;
+	cout <<endl;
+	cin >> kode_hari;
+
+	cout <<endl;
+	switch (kode_hari){
+	cout << "Anda Memilih Hari :";
+	case 1:
+		cout << "Anda Memilih Hari :";
+		cout <<"Senin"<<endl;
+		break;
+	case 2:
+		cout << "Anda Memilih Hari :";
+		cout <<"Selasa"<<endl;
+		break;
+	case 3:
+		cout << "Anda Memilih Hari :";
+		cout <<"Rabu"<<endl;
+		break;
+	case 4:
+		cout << "Anda Memilih Hari :";
+		cout <<"Kamis"<<endl;
+		break;
+	case 5:
+		cout << "Anda Memilih Hari :";
+		cout <<"Jum'at"<<endl;
+		break;
+	case 6:
+		cout << "Anda Memilih Hari :";
+		cout <<"Sabtu"<<endl;
+		break;
+	case 7:
+		cout << "Anda Memilih Hari :";
+		cout <<"Minggu"<<endl;
+		break;
+	default :
+		cout<<endl<<"Tidak ada pilihan"<<endl;
+	
+	}
+		system("pause");
+}
